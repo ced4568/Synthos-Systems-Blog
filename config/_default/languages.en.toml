@@ -1,0 +1,25 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "Synthos Systems"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "AI workflow systems for entrepreneurs and solopreneurs. No fluff — just systems that work."
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Chase Dumphord"
+  email = "chasedumphord@gmail.com"
+  # image = "img/author.jpg"
+  headline = "Digital Systems Engineer & AI Workflow Consultant"
+  bio = "I build AI workflow systems that help entrepreneurs and solopreneurs do more with less. Systems thinker. ROI-driven. No fluff."
+  links = [
+    { email = "mailto:chasedumphord@gmail.com" },
+  ]
