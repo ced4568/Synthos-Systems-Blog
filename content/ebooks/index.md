@@ -23,7 +23,7 @@ Stop starting from scratch every time you open ChatGPT. The AI Prompt Pack gives
 Works in Claude, ChatGPT, and Gemini.
 
 <div style="margin: 2rem 0; text-align: center;">
-  <a href="https://gumroad.com"
+  <a href="https://chasedumphord.gumroad.com/"
      target="_blank"
      rel="noopener noreferrer"
      style="display: inline-block; padding: 0.85rem 2rem; background-color: #0ea5e9; color: #fff; font-weight: 600; font-size: 1rem; border-radius: 0.5rem; text-decoration: none;">
@@ -31,4 +31,3 @@ Works in Claude, ChatGPT, and Gemini.
   </a>
 </div>
 
-> **Update this link** with your actual Gumroad product URL before publishing.
