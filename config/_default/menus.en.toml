@@ -20,6 +20,16 @@
   pageRef = "newsletter"
   weight = 20
 
+[[main]]
+  name = "Ebooks"
+  pageRef = "ebooks"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 40
+
 #[[main]]
 #  name = "Parent"
 #  weight = 20

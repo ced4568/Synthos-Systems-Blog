@@ -172,11 +172,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   # enableTrackEvent = true
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "right"
+  identifier = "cedshomelab"
+  globalWidget = true
+  globalWidgetMessage = "Enjoyed this? Buy me a coffee ☕"
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "right"
 
 [verification]
   # google = ""
