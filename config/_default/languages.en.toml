@@ -22,4 +22,7 @@ title = "Synthos Systems"
   bio = "I build AI workflow systems that help entrepreneurs and solopreneurs do more with less. Systems thinker. ROI-driven. No fluff."
   links = [
     { email = "mailto:chasedumphord@gmail.com" },
+    { github = "https://github.com/ced4568" },
+    { linkedin = "https://www.linkedin.com/in/chase-dumphord" },
+    { link = "https://chasedumphord.com" },
   ]
