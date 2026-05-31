@@ -49,3 +49,5 @@ Every effective AI workflow has three parts:
 AI doesn't save time when you use it randomly. It saves time when you build systems around it.
 
 Want the full library? The [AI Prompt Pack](#) includes 50+ pre-built prompts organized by business function — ready to drop into your workflows today.
+
+{{< newsletter-cta >}}
