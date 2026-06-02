@@ -1,0 +1,60 @@
+/* ── Subtle dot-grid background ── */
+body {
+  background-image: radial-gradient(rgba(56, 189, 248, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ── Glowing blue headings ── */
+h1, h2, h3 {
+  text-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
+}
+
+/* ── Neon-blue link glow on hover ── */
+a:hover {
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
+}
+
+/* ── Glowing top border on article cards ── */
+article,
+.card {
+  border-top: 2px solid rgba(56, 189, 248, 0.25);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.06);
+}
+
+/* ── Glowing blue scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.7);
+}
+
+/* ── Terminal-style inline code ── */
+code {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  background: rgba(56, 189, 248, 0.05) !important;
+  color: #38bdf8 !important;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+}
+
+/* ── Glowing horizontal rules ── */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(56, 189, 248, 0.5), transparent);
+  margin: 2rem 0;
+}
+
+/* ── Subtle glow on nav header ── */
+header {
+  box-shadow: 0 1px 20px rgba(56, 189, 248, 0.1);
+}

@@ -10,7 +10,7 @@ showAuthor: false
 
 **50+ battle-tested AI prompts organized by business function.**
 
-Stop starting from scratch every time you open ChatGPT. The AI Prompt Pack gives you a ready-made library of prompts for content creation, client management, weekly planning, SOPs, and more — organized so you can find the right prompt in seconds.
+Stop starting from scratch every time you open ChatGPT. The AI Prompt Pack gives you a ready-made library of prompts for content creation, client management, weekly planning, SOPs, and more, organized so you can find the right prompt in seconds.
 
 **What's inside:**
 
@@ -23,7 +23,7 @@ Stop starting from scratch every time you open ChatGPT. The AI Prompt Pack gives
 Works in Claude, ChatGPT, and Gemini.
 
 <div style="margin: 2rem 0; text-align: center;">
-  <a href="https://chasedumphord.gumroad.com/"
+  <a href="https://chasedumphord.gumroad.com/l/jcdnjf"
      target="_blank"
      rel="noopener noreferrer"
      style="display: inline-block; padding: 0.85rem 2rem; background-color: #0ea5e9; color: #fff; font-weight: 600; font-size: 1rem; border-radius: 0.5rem; text-decoration: none;">

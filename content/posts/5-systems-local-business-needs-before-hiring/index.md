@@ -9,7 +9,7 @@ categories: ["Business Systems"]
 
 Most local business owners don't lose clients because of bad service. They lose them because the back end is chaos. If you're serious about growth, the right **systems for small business growth** aren't optional; they're the foundation everything else is built on.
 
-This post is for local service businesses — landscapers, contractors, cleaning companies, home service providers, consultants — who are doing solid work but running operations out of a text thread, a spreadsheet, and memory.
+This post is for local service businesses, landscapers, contractors, cleaning companies, home service providers, consultants, who are doing solid work but running operations out of a text thread, a spreadsheet, and memory.
 
 Here are the five systems you need to have in place before you bring on a single employee or subcontractor.
 
