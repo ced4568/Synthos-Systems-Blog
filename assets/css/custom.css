@@ -1,27 +1,58 @@
-/* ── Subtle dot-grid background ── */
+/*
+ * FILE: assets/css/custom.css
+ * PURPOSE: Overrides and enhancements layered on top of the Blowfish theme.
+ *          Hugo/Blowfish automatically loads this file — no import needed.
+ * THEME BASE: azure color scheme, dark mode locked (set in config/_default/params.toml)
+ * COLOR USED: #38bdf8 / rgba(56, 189, 248, ...) — sky-blue accent matching the azure scheme
+ *
+ * SECTIONS:
+ *   1. Background pattern
+ *   2. Heading glow
+ *   3. Link hover glow
+ *   4. Article card borders
+ *   5. Scrollbar styling
+ *   6. Inline code styling
+ *   7. Horizontal rule styling
+ *   8. Header shadow
+ */
+
+
+/* ── SECTION 1: Subtle dot-grid background ─────────────────────────────────
+   Adds a faint repeating dot pattern to the page body for a tech/blueprint feel.
+   Opacity is very low (0.08) so it doesn't overpower content. */
 body {
   background-image: radial-gradient(rgba(56, 189, 248, 0.08) 1px, transparent 1px);
   background-size: 28px 28px;
 }
 
-/* ── Glowing blue headings ── */
+
+/* ── SECTION 2: Glowing blue headings ──────────────────────────────────────
+   Adds a soft blue text-shadow to h1/h2/h3 to give headings a neon-lit look. */
 h1, h2, h3 {
   text-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
 }
 
-/* ── Neon-blue link glow on hover ── */
+
+/* ── SECTION 3: Neon-blue link glow on hover ───────────────────────────────
+   When a user hovers any link, a blue glow appears around the text. */
 a:hover {
   text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
 }
 
-/* ── Glowing top border on article cards ── */
+
+/* ── SECTION 4: Glowing top border on article cards ────────────────────────
+   Each post card gets a thin blue top border and a faint blue box shadow
+   to make cards feel like illuminated panels. */
 article,
 .card {
   border-top: 2px solid rgba(56, 189, 248, 0.25);
   box-shadow: 0 0 20px rgba(56, 189, 248, 0.06);
 }
 
-/* ── Glowing blue scrollbar ── */
+
+/* ── SECTION 5: Glowing blue scrollbar ─────────────────────────────────────
+   Replaces the default browser scrollbar with a slim, blue-tinted one.
+   Note: only works in Chromium-based browsers (Chrome, Edge, Brave). */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -36,7 +67,11 @@ article,
   background: rgba(56, 189, 248, 0.7);
 }
 
-/* ── Terminal-style inline code ── */
+
+/* ── SECTION 6: Terminal-style inline code ──────────────────────────────────
+   Inline <code> blocks get a monospace font stack, blue text color, and a
+   faint blue background — giving them a terminal/code-editor appearance.
+   !important overrides Blowfish theme defaults. */
 code {
   font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
   border: 1px solid rgba(56, 189, 248, 0.2);
@@ -46,7 +81,10 @@ code {
   border-radius: 4px;
 }
 
-/* ── Glowing horizontal rules ── */
+
+/* ── SECTION 7: Glowing horizontal rules ───────────────────────────────────
+   Replaces plain <hr> lines with a gradient that fades from transparent
+   to blue and back, creating a glowing divider effect. */
 hr {
   border: none;
   height: 1px;
@@ -54,7 +92,10 @@ hr {
   margin: 2rem 0;
 }
 
-/* ── Subtle glow on nav header ── */
+
+/* ── SECTION 8: Subtle glow on nav header ──────────────────────────────────
+   Adds a faint blue downward shadow under the site header/nav bar to
+   separate it from the page content without a hard border. */
 header {
   box-shadow: 0 1px 20px rgba(56, 189, 248, 0.1);
 }

@@ -1,21 +1,53 @@
+<!--
+  FILE: layouts/shortcodes/newsletter-cta.html
+  PURPOSE: Reusable Hugo shortcode for embedding a newsletter signup form
+           inline within any blog post or page content.
+  USAGE IN MARKDOWN: {{< newsletter-cta >}}
+  DIFFERENCE FROM sharing-links.html: This shortcode is manually placed
+           inside post content (e.g. at the end of a post body). The
+           sharing-links partial is injected automatically by the theme layout.
+  TO EDIT THE FORM ACTION: change the action URL on the <form> tag.
+  TO CHANGE THE LIST: update the value on the hidden checkbox input (the list UUID).
+-->
+
+<!-- ── SECTION: Shortcode outer card wrapper ─────────────────────────────── -->
 <div style="margin: 2.5rem 0; padding: 1.5rem 2rem; border: 1px solid #0ea5e9; border-radius: 0.75rem; text-align: center;">
+
+  <!-- ── SECTION: Newsletter name and tagline ───────────────────────────── -->
   <p style="font-weight: 700; font-size: 1.1rem; margin: 0 0 0.5rem;">📬 The System Brief</p>
-  <p style="margin: 0 0 1.25rem; opacity: 0.85;">One workflow. One prompt. One principle. Every week:free.</p>
+  <p style="margin: 0 0 1.25rem; opacity: 0.85;">One workflow. One prompt. One principle. Every week, free.</p>
+
+  <!-- ── SECTION: Listmonk subscription form ────────────────────────────── -->
+  <!-- POSTs to the self-hosted Listmonk instance at newsletter.synthossystems.com -->
   <form method="post" action="http://newsletter.synthossystems.com/subscription/form" class="listmonk-form" style="text-align: center;">
+
+    <!-- CSRF nonce required by Listmonk — do not remove -->
     <input type="hidden" name="nonce" />
+
+    <!-- ── SECTION: Email and name input row ────────────────────────────── -->
     <p style="margin: 0 0 0.6rem;">
       <input type="email" name="email" required placeholder="E-mail"
              style="padding: 0.65rem 1rem; font-size: 0.9rem; border: 2px solid #0ea5e9; border-radius: 0.5rem; width: 220px; margin-right: 0.4rem;" />
       <input type="text" name="name" placeholder="Name (optional)"
              style="padding: 0.65rem 1rem; font-size: 0.9rem; border: 2px solid #0ea5e9; border-radius: 0.5rem; width: 180px;" />
     </p>
+
+    <!-- ── SECTION: List selector (hidden checkbox) ─────────────────────── -->
+    <!-- The value is the Listmonk list UUID for "The System Brief" subscriber list -->
+    <!-- Checked by default so the user is auto-subscribed to this list on submit -->
     <p style="margin: 0 0 0.75rem; font-size: 0.8rem; opacity: 0.7;">
       <input id="3e7dc-cta" type="checkbox" name="l" checked value="3e7dc8d5-bae5-4bd1-8a95-aba9b204645e" style="margin-right: 0.3rem;" />
-      <label for="3e7dc-cta">The System Brief:AI workflow systems for entrepreneurs</label>
+      <label for="3e7dc-cta">The System Brief: AI workflow systems for entrepreneurs</label>
     </p>
+
+    <!-- ── SECTION: Submit button ───────────────────────────────────────── -->
     <button type="submit"
             style="padding: 0.75rem 1.75rem; background-color: #0ea5e9; color: #fff; font-weight: 600; border: none; border-radius: 0.5rem; cursor: pointer;">
       Subscribe &rarr;
     </button>
+
   </form>
+  <!-- END: Listmonk subscription form -->
+
 </div>
+<!-- END: Shortcode outer card wrapper -->
